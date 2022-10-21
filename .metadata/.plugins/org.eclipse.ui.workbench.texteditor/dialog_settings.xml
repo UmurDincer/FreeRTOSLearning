@@ -6,8 +6,14 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="RTT_BUFFER_SIZE"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="configCPU_CLOCK_HZ"/>
+			<item value="ledorange_task_handle"/>
+			<item value="leorange_task_handle"/>
+			<item value="next_task_handle"/>
+			<item value="ledblue_task_handle"/>
+			<item value="segger"/>
 			<item value="RTT_BUFFER_SIZE"/>
 			<item value="RTT_BUFFER"/>
 		</list>
