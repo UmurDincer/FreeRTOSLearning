@@ -6,8 +6,13 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="huart2"/>
 		<list key="findhistory">
+			<item value="huart2"/>
+			<item value="configSUPPORT_DYNAMIC_ALLOCATION"/>
+			<item value="xTaskCreate"/>
+			<item value="taskcreate"/>
+			<item value="create"/>
 			<item value="configCPU_CLOCK_HZ"/>
 			<item value="ledorange_task_handle"/>
 			<item value="leorange_task_handle"/>
@@ -21,10 +26,10 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="527"/>
-		<item key="DIALOG_Y_ORIGIN" value="112"/>
+		<item key="DIALOG_X_ORIGIN" value="648"/>
+		<item key="DIALOG_Y_ORIGIN" value="281"/>
 		<item key="DIALOG_WIDTH" value="322"/>
-		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_HEIGHT" value="340"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

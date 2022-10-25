@@ -1,0 +1,10 @@
+/*
+ * rtc.c
+ *
+ *  Created on: Oct 21, 2022
+ *      Author: Umur Dinçer
+ */
+
+#include "main.h"
+
+

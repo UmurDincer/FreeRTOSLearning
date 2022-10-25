@@ -1,0 +1,55 @@
+/*
+ * task_handler.c
+ *
+ *  Created on: Oct 21, 2022
+ *      Author: LENOVO
+ */
+
+#include "main.h"
+
+void menu_task(void *parameter)
+{
+	while(1)
+	{
+
+	}
+}
+
+void led_task(void *parameter)
+{
+	while(1)
+	{
+
+	}
+}
+
+void rtc_task(void *parameter)
+{
+	while(1)
+	{
+
+	}
+}
+
+void print_task(void *parameter)
+{
+	while(1)
+	{
+
+	}
+}
+
+void cmd_handler_task(void *parameter)
+{
+	BaseType_t ret;
+	command_t cmd;
+	while(1)
+	{
+		ret = xTaskNotifyWait(0,0, NULL, portMAX_DELAY); //impelementation of notify wait
+		if(ret =pdTRUE){
+
+			//process the user data(command) stored in input data queue
+			process_command();
+		}
+	}
+}
